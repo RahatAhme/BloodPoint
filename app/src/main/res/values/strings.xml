@@ -1,0 +1,617 @@
+<resources>
+    <string name="app_name">Blood Point</string>
+    <string name="new_here">New Here?"\n"click here</string>
+    <string name="forget_pass">Forget Password?"\n"click here</string>
+    <string-array name="district_name">
+        <item></item>
+
+
+    </string-array>
+    <string-array name="Subdistrict_name">
+
+        <item>AMTALI</item>
+        <item>BAMNA</item>
+        <item>BARGUNA SADAR</item>
+        <item>BETAGI</item>
+        <item>PATHARGHATA</item>
+        <item>TALTALI</item>
+        <item>AGAILJHARA</item>
+        <item>BABUGANJ</item>
+        <item>BAKERGANJ</item>
+        <item>BANARI PARA</item>
+        <item>GAURNADI</item>
+        <item>HIZLA</item>
+        <item>BARISAL SADAR (KOTWALI)</item>
+        <item>MHENDIGANJ</item>
+        <item>MULADI</item>
+        <item>WAZIRPUR</item>
+        <item>BHOLA SADAR</item>
+        <item>	BURHANUDDIN	</item>
+        <item>	CHAR FASSON	</item>
+        <item>	DAULAT KHAN	</item>
+        <item>	LALMOHAN	</item>
+        <item>	MANPURA	</item>
+        <item>	TAZUMUDDIN	</item>
+        <item>	JHALOKATI SADAR	</item>
+        <item>	KANTHALIA	</item>
+        <item>	NALCHITY	</item>
+        <item>	RAJAPUR	</item>
+        <item>	BAUPHAL	</item>
+        <item>	DASHMINA	</item>
+        <item>	DUMKI	</item>
+        <item>	GALACHIPA	</item>
+        <item>	KALAPARA	</item>
+        <item>	MIRZAGANJ	</item>
+        <item>	PATUAKHALI SADAR	</item>
+        <item>	RANGABALI	</item>
+        <item>	BHANDARIA	</item>
+        <item>	KAWKHALI	</item>
+        <item>	MATHBARIA	</item>
+        <item>	NAZIRPUR	</item>
+        <item>	PIROJPUR SADAR	</item>
+        <item>	NESARABAD (SWARUPKATI)	</item>
+        <item>	ZIANAGAR	</item>
+        <item>	ALIKADAM	</item>
+        <item>	BANDARBAN SADAR	</item>
+        <item>	LAMA	</item>
+        <item>	NAIKHONGCHHARI	</item>
+        <item>	ROWANGCHHARI	</item>
+        <item>	RUMA	</item>
+        <item>	THANCHI	</item>
+
+        <item>	AKHAURA	</item>
+        <item>	BANCHHARAMPUR	</item>
+        <item>	BIJOYNAGAR	</item>
+        <item>	BRAHMANBARIA SADAR	</item>
+        <item>	ASHUGANJ	</item>
+        <item>	KASBA	</item>
+        <item>	NABINAGAR	</item>
+        <item>	NASIRNAGAR	</item>
+        <item>	SARAIL	</item>
+        <item>	CHANDPUR SADAR	</item>
+        <item>	FARIDGANJ	</item>
+        <item>	HAIM CHAR	</item>
+        <item>	HAJIGANJ	</item>
+        <item>	KACHUA	</item>
+        <item>	MATLAB DAKSHIN	</item>
+        <item>	MATLAB UTTAR	</item>
+        <item>	SHAHRASTI	</item>
+
+        <item>	ANOWARA	</item>
+        <item>	BAYEJID BOSTAMI	</item>
+        <item>	BANSHKHALI	</item>
+        <item>	BAKALIA	</item>
+        <item>	BOALKHALI	</item>
+
+        <item>	CHANDANAISH	</item>
+        <item>	CHANDGAON	</item>
+        <item>	CHITTAGONG PORT	</item>
+        <item>	DOUBLE MOORING	</item>
+        <item>	FATIKCHHARI	</item>
+        <item>	HALISHAHAR	</item>
+        <item>	HATHAZARI	</item>
+        <item>	KOTWALI	</item>
+        <item>	KHULSHI	</item>
+        <item>	LOHAGARA	</item>
+        <item>	MIRSHARAI	</item>
+        <item>	PAHARTALI	</item>
+        <item>	PANCHLAISH	</item>
+        <item>	PATIYA	</item>
+        <item>	PATENGA	</item>
+        <item>	RANGUNIA	</item>
+        <item>	RAOZAN	</item>
+        <item>	SANDWIP	</item>
+        <item>	SATKANIA	</item>
+        <item>	SITAKUNDA	</item>
+
+        <item>	BARURA	</item>
+        <item>	BRAHMAN PARA	</item>
+        <item>	BURICHANG	</item>
+        <item>	CHANDINA	</item>
+        <item>	CHAUDDAGRAM	</item>
+        <item>	COMILLA SADAR DAKSHIN	</item>
+        <item>	DAUDKANDI	</item>
+        <item>	DEBIDWAR	</item>
+        <item>	HOMNA	</item>
+        <item>	COMILLA ADARSHA SADAR	</item>
+        <item>	LAKSAM	</item>
+        <item>	MANOHARGANJ	</item>
+        <item>	MEGHNA	</item>
+        <item>	MURADNAGAR	</item>
+        <item>	NANGALKOT	</item>
+        <item>	TITAS	</item>
+
+        <item>	CHAKARIA	</item>
+        <item>	COX'S BAZAR SADAR	</item>
+        <item>	KUTUBDIA	</item>
+        <item>	MAHESHKHALI	</item>
+        <item>	PEKUA	</item>
+        <item>	RAMU	</item>
+        <item>	TEKNAF	</item>
+        <item>	UKHIA	</item>
+        <item>	CHHAGALNAIYA	</item>
+        <item>	DAGANBHUIYAN	</item>
+        <item>	FENI SADAR	</item>
+        <item>	FULGAZI	</item>
+        <item>	PARSHURAM	</item>
+        <item>	SONAGAZI	</item>
+        <item>	DIGHINALA	</item>
+        <item>	KHAGRACHHARI SADAR	</item>
+        <item>	LAKSHMICHHARI	</item>
+        <item>	MAHALCHHARI	</item>
+        <item>	MANIKCHHARI	</item>
+        <item>	MATIRANGA	</item>
+        <item>	PANCHHARI	</item>
+        <item>	RAMGARH	</item>
+
+        <item>	KAMALNAGAR	</item>
+        <item>	LAKSHMIPUR SADAR	</item>
+        <item>	ROYPUR	</item>
+        <item>	RAMGANJ	</item>
+        <item>	RAMGATI	</item>
+
+        <item>	BEGUMGANJ	</item>
+        <item>	CHATKHIL	</item>
+        <item>	COMPANIGANJ	</item>
+        <item>	HATIYA	</item>
+        <item>	KABIRHAT	</item>
+        <item>	SENBAGH	</item>
+        <item>	SONAIMURI	</item>
+        <item>	SUBARNACHAR	</item>
+        <item>	NOAKHALI SADAR	</item>
+        <item>	BAGHAICHHARI	</item>
+        <item>	BARKAL UPAZILA	</item>
+        <item>	KAWKHALI (BETBUNIA)	</item>
+        <item>	BELAI CHHARI  UPAZI	</item>
+        <item>	KAPTAI  UPAZILA	</item>
+        <item>	JURAI CHHARI UPAZIL	</item>
+        <item>	LANGADU  UPAZILA	</item>
+        <item>	NANIARCHAR  UPAZILA	</item>
+        <item>	RAJASTHALI  UPAZILA	</item>
+        <item>	RANGAMATI SADAR  UP	</item>
+
+        <item>	ADABOR	</item>
+        <item>	BADDA	</item>
+        <item>	BANGSHAL	</item>
+        <item>	BIMAN BANDAR	</item>
+        <item>	BANANI	</item>
+        <item>	CANTONMENT	</item>
+        <item>	CHAK BAZAR	</item>
+        <item>	DAKSHINKHAN	</item>
+        <item>	DARUS SALAM	</item>
+        <item>	DEMRA	</item>
+        <item>	DHAMRAI	</item>
+        <item>	DHANMONDI	</item>
+        <item>	DOHAR	</item>
+        <item>	BHASAN TEK	</item>
+        <item>	BHATARA	</item>
+        <item>	GENDARIA	</item>
+        <item>	GULSHAN	</item>
+        <item>	HAZARIBAGH	</item>
+        <item>	JATRABARI	</item>
+        <item>	KAFRUL	</item>
+        <item>	KADAMTALI	</item>
+        <item>	KALABAGAN	</item>
+        <item>	KAMRANGIR CHAR	</item>
+        <item>	KHILGAON	</item>
+        <item>	KHILKHET	</item>
+        <item>	KERANIGANJ	</item>
+        <item>	KOTWALI	</item>
+        <item>	LALBAGH	</item>
+        <item>	MIRPUR	</item>
+        <item>	MOHAMMADPUR	</item>
+        <item>	MOTIJHEEL	</item>
+        <item>	MUGDA PARA	</item>
+        <item>	NAWABGANJ	</item>
+        <item>	NEW MARKET	</item>
+        <item>	PALLABI	</item>
+        <item>	PALTAN	</item>
+        <item>	RAMNA	</item>
+        <item>	RAMPURA	</item>
+        <item>	SABUJBAGH	</item>
+        <item>	RUPNAGAR	</item>
+        <item>	SAVAR	</item>
+        <item>	SHAHJAHANPUR	</item>
+        <item>	SHAH ALI	</item>
+        <item>	SHAHBAGH	</item>
+        <item>	SHYAMPUR	</item>
+        <item>	SHER-E-BANGLA NAGAR	</item>
+        <item>	SUTRAPUR	</item>
+        <item>	TEJGAON	</item>
+        <item>	TEJGAON IND. AREA	</item>
+        <item>	TURAG	</item>
+        <item>	UTTARA  PASCHIM	</item>
+        <item>	UTTARA  PURBA	</item>
+        <item>	UTTAR KHAN	</item>
+        <item>	WARI	</item>
+        <item>	ALFADANGA	</item>
+        <item>	BHANGA	</item>
+        <item>	BOALMARI	</item>
+        <item>	CHAR BHADRASAN	</item>
+        <item>	FARIDPUR SADAR	</item>
+        <item>	MADHUKHALI	</item>
+        <item>	NAGARKANDA	</item>
+        <item>	SADARPUR	</item>
+        <item>	SALTHA	</item>
+        <item>	GAZIPUR SADAR	</item>
+        <item>	KALIAKAIR	</item>
+        <item>	KALIGANJ	</item>
+        <item>	KAPASIA	</item>
+        <item>	SREEPUR	</item>
+        <item>	GOPALGANJ SADAR	</item>
+        <item>	KASHIANI	</item>
+        <item>	KOTALIPARA	</item>
+        <item>	MUKSUDPUR	</item>
+        <item>	TUNGIPARA	</item>
+        <item>	BAKSHIGANJ	</item>
+        <item>	DEWANGANJ	</item>
+        <item>	ISLAMPUR	</item>
+        <item>	JAMALPUR SADAR	</item>
+        <item>	MADARGANJ	</item>
+        <item>	MELANDAHA	</item>
+        <item>	SARISHABARI UPAZILA	</item>
+        <item>	AUSTAGRAM	</item>
+        <item>	BAJITPUR	</item>
+        <item>	BHAIRAB	</item>
+        <item>	HOSSAINPUR	</item>
+        <item>	ITNA	</item>
+        <item>	KARIMGANJ	</item>
+        <item>	KATIADI	</item>
+        <item>	KISHOREGANJ SADAR	</item>
+        <item>	KULIAR CHAR	</item>
+        <item>	MITHAMAIN	</item>
+        <item>	NIKLI	</item>
+        <item>	PAKUNDIA	</item>
+        <item>	TARAIL	</item>
+        <item>	KALKINI	</item>
+        <item>	MADARIPUR SADAR	</item>
+        <item>	RAJOIR	</item>
+        <item>	SHIBCHAR	</item>
+        <item>	DAULATPUR	</item>
+        <item>	GHIOR	</item>
+        <item>	HARIRAMPUR	</item>
+        <item>	MANIKGANJ SADAR	</item>
+        <item>	SATURIA	</item>
+        <item>	SHIBALAYA	</item>
+        <item>	SINGAIR	</item>
+        <item>	GAZARIA	</item>
+        <item>	LOHAJANG	</item>
+        <item>	MUNSHIGANJ SADAR	</item>
+        <item>	SERAJDIKHAN	</item>
+        <item>	SREENAGAR	</item>
+        <item>	TONGIBARI	</item>
+        <item>	BHALUKA	</item>
+        <item>	DHOBAURA	</item>
+        <item>	FULBARIA	</item>
+        <item>	GAFFARGAON	</item>
+        <item>	GAURIPUR	</item>
+        <item>	HALUAGHAT	</item>
+        <item>	ISHWARGANJ	</item>
+        <item>	MYMENSINGH SADAR	</item>
+        <item>	MUKTAGACHHA	</item>
+        <item>	NANDAIL	</item>
+        <item>	PHULPUR	</item>
+        <item>	TRISHAL	</item>
+        <item>	ARAIHAZAR	</item>
+        <item>	SONARGAON	</item>
+        <item>	BANDAR	</item>
+        <item>	NARAYANGANJ SADAR	</item>
+        <item>	RUPGANJ	</item>
+        <item>	BELABO	</item>
+        <item>	MANOHARDI	</item>
+        <item>	NARSINGDI SADAR	</item>
+        <item>	PALASH	</item>
+        <item>	ROYPURA	</item>
+        <item>	SHIBPUR	</item>
+        <item>	ATPARA	</item>
+        <item>	BARHATTA	</item>
+        <item>	DURGAPUR	</item>
+        <item>	KHALIAJURI	</item>
+        <item>	KALMAKANDA	</item>
+        <item>	KENDUA	</item>
+        <item>	MADAN	</item>
+        <item>	MOHANGANJ	</item>
+        <item>	NETROKONA SADAR	</item>
+        <item>	PURBADHALA	</item>
+        <item>	BALIAKANDI	</item>
+        <item>	GOALANDA	</item>
+        <item>	KALUKHALI	</item>
+        <item>	PANGSHA	</item>
+        <item>	RAJBARI SADAR	</item>
+        <item>	BHEDARGANJ	</item>
+        <item>	DAMUDYA	</item>
+        <item>	GOSAIRHAT	</item>
+        <item>	NARIA	</item>
+        <item>	SHARIATPUR SADAR	</item>
+        <item>	ZANJIRA	</item>
+        <item>	JHENAIGATI	</item>
+        <item>	NAKLA	</item>
+        <item>	NALITABARI	</item>
+        <item>	SHERPUR SADAR	</item>
+        <item>	SREEBARDI	</item>
+        <item>	BASAIL	</item>
+        <item>	BHUAPUR	</item>
+        <item>	DELDUAR	</item>
+        <item>	DHANBARI	</item>
+        <item>	GHATAIL	</item>
+        <item>	GOPALPUR	</item>
+        <item>	KALIHATI	</item>
+        <item>	MADHUPUR	</item>
+        <item>	MIRZAPUR	</item>
+        <item>	NAGARPUR	</item>
+        <item>	SAKHIPUR	</item>
+        <item>	TANGAIL SADAR	</item>
+        <item>	BAGERHAT SADAR	</item>
+        <item>	CHITALMARI	</item>
+        <item>	FAKIRHAT	</item>
+        <item>	KACHUA	</item>
+        <item>	MOLLAHAT	</item>
+        <item>	MONGLA	</item>
+        <item>	MORRELGANJ	</item>
+        <item>	RAMPAL	</item>
+        <item>	SARANKHOLA	</item>
+        <item>	ALAMDANGA	</item>
+        <item>	CHUADANGA SADAR	</item>
+        <item>	DAMURHUDA	</item>
+        <item>	JIBAN NAGAR	</item>
+        <item>	ABHAYNAGAR	</item>
+        <item>	BAGHER PARA	</item>
+        <item>	CHAUGACHHA	</item>
+        <item>	JHIKARGACHHA	</item>
+        <item>	KESHABPUR	</item>
+        <item>	JESSORE SADAR	</item>
+        <item>	MANIRAMPUR	</item>
+        <item>	SHARSHA	</item>
+        <item>	HARINAKUNDA	</item>
+        <item>	JHENAIDAH SADAR	</item>
+        <item>	KALIGANJ	</item>
+        <item>	KOTCHANDPUR	</item>
+        <item>	MAHESHPUR	</item>
+        <item>	SHAILKUPA	</item>
+        <item>	BATIAGHATA	</item>
+        <item>	DACOPE	</item>
+        <item>	DAULATPUR	</item>
+        <item>	DUMURIA	</item>
+        <item>	DIGHALIA	</item>
+        <item>	KHALISHPUR	</item>
+        <item>	KHAN JAHAN ALI	</item>
+        <item>	KHULNA SADAR	</item>
+        <item>	KOYRA	</item>
+        <item>	PAIKGACHHA	</item>
+        <item>	PHULTALA	</item>
+        <item>	RUPSA	</item>
+        <item>	SONADANGA	</item>
+        <item>	TEROKHADA	</item>
+
+        <item>	BHERAMARA	</item>
+        <item>	DAULATPUR	</item>
+        <item>	KHOKSA	</item>
+        <item>	KUMARKHALI	</item>
+        <item>	KUSHTIA SADAR	</item>
+        <item>	MIRPUR	</item>
+        <item>	MAGURA SADAR	</item>
+        <item>	MOHAMMADPUR	</item>
+        <item>	SHALIKHA	</item>
+        <item>	SREEPUR	</item>
+        <item>		</item>
+        <item>	GANGNI	</item>
+        <item>	MUJIB NAGAR	</item>
+        <item>	MEHERPUR SADAR	</item>
+        <item>	KALIA	</item>
+        <item>	LOHAGARA	</item>
+        <item>	NARAIL SADAR	</item>
+        <item>	ASSASUNI	</item>
+        <item>	DEBHATA	</item>
+        <item>	KALAROA	</item>
+        <item>	KALIGANJ	</item>
+        <item>	SATKHIRA SADAR	</item>
+        <item>	SHYAMNAGAR	</item>
+        <item>	TALA	</item>
+        <item>	ADAMDIGHI	</item>
+        <item>	BOGRA SADAR	</item>
+        <item>	DHUNAT	</item>
+        <item>	DHUPCHANCHIA	</item>
+        <item>	GABTALI	</item>
+        <item>	KAHALOO	</item>
+        <item>	NANDIGRAM	</item>
+        <item>	SARIAKANDI	</item>
+        <item>	SHAJAHANPUR	</item>
+        <item>	SHERPUR	</item>
+        <item>	SHIBGANJ	</item>
+        <item>	SONATOLA	</item>
+        <item>	AKKELPUR	</item>
+        <item>	JOYPURHAT SADAR	</item>
+        <item>	KALAI	</item>
+        <item>	KHETLAL	</item>
+        <item>	PANCHBIBI	</item>
+        <item>	ATRAI	</item>
+        <item>	BADALGACHHI	</item>
+        <item>	DHAMOIRHAT	</item>
+        <item>	MANDA	</item>
+        <item>	MAHADEBPUR	</item>
+        <item>	NAOGAON SADAR	</item>
+        <item>	NIAMATPUR	</item>
+        <item>	PATNITALA	</item>
+        <item>	PORSHA	</item>
+        <item>	RANINAGAR	</item>
+        <item>	SAPAHAR	</item>
+        <item>	BAGATIPARA	</item>
+        <item>	BARAIGRAM	</item>
+        <item>	GURUDASPUR	</item>
+        <item>	LALPUR	</item>
+        <item>	NATORE SADAR	</item>
+        <item>	SINGRA	</item>
+        <item>	BHOLAHAT	</item>
+        <item>	GOMASTAPUR	</item>
+        <item>	NACHOLE	</item>
+        <item>	CHAPAI NABABGANJ SADAR	</item>
+        <item>	SHIBGANJ	</item>
+        <item>		</item>
+        <item>	ATGHARIA	</item>
+        <item>	BERA	</item>
+        <item>	BHANGURA	</item>
+        <item>	CHATMOHAR	</item>
+        <item>	FARIDPUR	</item>
+        <item>	ISHWARDI	</item>
+        <item>	PABNA SADAR	</item>
+        <item>	SANTHIA	</item>
+        <item>	SUJANAGAR	</item>
+        <item>		</item>
+        <item>	BAGHA	</item>
+        <item>	BAGHMARA	</item>
+        <item>	BOALIA	</item>
+        <item>	CHARGHAT	</item>
+        <item>	DURGAPUR	</item>
+        <item>	GODAGARI	</item>
+        <item>	MATIHAR	</item>
+        <item>	MOHANPUR	</item>
+        <item>	PABA	</item>
+        <item>	PUTHIA	</item>
+        <item>	RAJPARA	</item>
+        <item>	SHAH MAKHDUM	</item>
+        <item>	TANORE	</item>
+        <item>		</item>
+        <item>		</item>
+        <item>	BELKUCHI	</item>
+        <item>	CHAUHALI	</item>
+        <item>	KAMARKHANDA	</item>
+        <item>	KAZIPUR	</item>
+        <item>	ROYGANJ	</item>
+        <item>	SHAHJADPUR	</item>
+        <item>	SIRAJGANJ SADAR	</item>
+        <item>	TARASH	</item>
+        <item>	ULLAH PARA	</item>
+
+        <item>	BIRAMPUR	</item>
+        <item>	BIRGANJ	</item>
+        <item>	BIRAL	</item>
+        <item>	BOCHAGANJ	</item>
+        <item>	CHIRIRBANDAR	</item>
+        <item>	FULBARI	</item>
+        <item>	GHORAGHAT	</item>
+        <item>	HAKIMPUR	</item>
+        <item>	KAHAROLE	</item>
+        <item>	KHANSAMA	</item>
+        <item>	DINAJPUR SADAR	</item>
+        <item>	NAWABGANJ	</item>
+        <item>	PARBATIPUR	</item>
+
+        <item>	FULCHHARI	</item>
+        <item>	GAIBANDHA SADAR	</item>
+        <item>	GOBINDAGANJ	</item>
+        <item>	PALASHBARI	</item>
+        <item>	SADULLAPUR	</item>
+        <item>	SAGHATA	</item>
+        <item>	SUNDARGANJ	</item>
+        <item>		</item>
+        <item>	BHURUNGAMARI	</item>
+        <item>	CHAR RAJIBPUR	</item>
+        <item>	CHILMARI	</item>
+        <item>	PHULBARI	</item>
+        <item>	KURIGRAM SADAR	</item>
+        <item>	NAGESHWARI	</item>
+        <item>	RAJARHAT	</item>
+        <item>	RAUMARI	</item>
+        <item>	ULIPUR	</item>
+        <item>		</item>
+        <item>		</item>
+        <item>	ADITMARI	</item>
+        <item>	HATIBANDHA	</item>
+        <item>	KALIGANJ	</item>
+        <item>	LALMONIRHAT SADAR	</item>
+        <item>	PATGRAM	</item>
+        <item>		</item>
+        <item>	DIMLA UPAZILA	</item>
+        <item>	DOMAR UPAZILA	</item>
+        <item>	JALDHAKA UPAZILA	</item>
+        <item>	KISHOREGANJ UPAZILA	</item>
+        <item>	NILPHAMARI SADAR UPAZ	</item>
+        <item>	SAIDPUR UPAZILA	</item>
+        <item>		</item>
+        <item>	ATWARI	</item>
+        <item>	BODA	</item>
+        <item>	DEBIGANJ	</item>
+        <item>	PANCHAGARH SADAR	</item>
+        <item>	TENTULIA	</item>
+        <item>		</item>
+        <item>	BADARGANJ	</item>
+        <item>	GANGACHARA	</item>
+        <item>	KAUNIA	</item>
+        <item>	RANGPUR SADAR	</item>
+        <item>	MITHA PUKUR	</item>
+        <item>	PIRGACHHA	</item>
+        <item>	PIRGANJ	</item>
+        <item>	TARAGANJ	</item>
+        <item>		</item>
+        <item>	BALIADANGI	</item>
+        <item>	HARIPUR	</item>
+        <item>	PIRGANJ	</item>
+        <item>	RANISANKAIL	</item>
+        <item>	THAKURGAON SADAR	</item>
+        <item>		</item>
+        <item>		</item>
+        <item>	AJMIRIGANJ	</item>
+        <item>	BAHUBAL	</item>
+        <item>	BANIACHONG	</item>
+        <item>	CHUNARUGHAT	</item>
+        <item>	HABIGANJ SADAR	</item>
+        <item>	LAKHAI	</item>
+        <item>		</item>
+        <item>	MADHABPUR	</item>
+        <item>	NABIGANJ	</item>
+        <item>		</item>
+        <item>	BARLEKHA	</item>
+        <item>	JURI	</item>
+        <item>	KAMALGANJ	</item>
+        <item>	KULAURA	</item>
+        <item>	MAULVIBAZAR SADAR	</item>
+        <item>	RAJNAGAR	</item>
+        <item>	SREEMANGAL	</item>
+        <item>		</item>
+        <item>	BISHWAMBARPUR	</item>
+        <item>	CHHATAK	</item>
+        <item>	DAKSHIN SUNAMGANJ	</item>
+        <item>	DERAI	</item>
+        <item>	DHARAMPASHA	</item>
+        <item>	DOWARABAZAR	</item>
+        <item>	JAGANNATHPUR	</item>
+        <item>	JAMALGANJ	</item>
+        <item>	SULLA	</item>
+        <item>	SUNAMGANJ SADAR	</item>
+        <item>	TAHIRPUR	</item>
+        <item>		</item>
+        <item>	BALAGANJ	</item>
+        <item>	BEANI BAZAR	</item>
+        <item>	BISHWANATH	</item>
+        <item>	COMPANIGANJ	</item>
+        <item>	DAKSHIN SURMA	</item>
+        <item>	FENCHUGANJ	</item>
+        <item>	GOLAPGANJ	</item>
+        <item>	GOWAINGHAT	</item>
+        <item>	JAINTIAPUR	</item>
+        <item>	KANAIGHAT	</item>
+        <item>	SYLHET SADAR	</item>
+        <item>	ZAKIGANJ	</item>
+
+
+    </string-array>
+    <string-array name="bloodGroups">
+        <item>Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B+</item>
+        <item>AB+</item>
+        <item>AB+</item>
+        <item>O+</item>
+        <item>O-</item>
+
+    </string-array>
+    <string-array name="genders">
+        <item>Sex</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+
+    </string-array>
+</resources>
