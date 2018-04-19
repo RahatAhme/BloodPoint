@@ -4,19 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/backimg"
     tools:context="com.soft_scatch.rahat.bloodpoint.Request_Activity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/reqesttoolbarid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#2a18d4"
+        android:background="@color/colorPrimaryDark"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:titleTextColor="#d41850" />
+        app:titleTextColor="#fdfcfc" />
 
     <EditText
         android:id="@+id/hospitalTextID"
@@ -59,7 +60,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-       android:hint="District"
+        android:hint="District"
         android:textColorHint="#0187fc"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

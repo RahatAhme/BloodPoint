@@ -17,10 +17,22 @@
             </intent-filter>
         </activity>
         <activity android:name=".Log_in_Activity" />
-        <activity android:name=".Core_Activity" />
+        <activity
+            android:name=".navigation_drawer"
+            android:label="@string/title_activity_navigation_drawer"
+            android:parentActivityName=".Log_in_Activity" />
         <activity android:name=".Sign_UP_Activity" />
         <activity android:name=".Personal_Details_Activity" />
-        <activity android:name=".Request_Activity"></activity>
+        <activity android:name=".Request_Activity" />
+        <activity android:name=".Search_with_Locality" />
+        <activity android:name=".Ambulance_Activity" />
+        <activity android:name=".ListView_Activity" />
+        <activity android:name=".Tips_for_doner_Activity" />
+        <activity android:name=".AboutUS_Activity" />
+        <activity android:name=".Feed_Back_Activit" />
+        <activity android:name=".Add_Ambu_Activity" />
+        <activity android:name=".AmbuListView_Activity" />
+        <activity android:name=".statistics_Activity"></activity>
     </application>
 
 </manifest>

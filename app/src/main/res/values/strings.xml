@@ -64,7 +64,6 @@
         <item>	Thakurgaon 	</item>
 
 
-
     </string-array>
     <string-array name="Subdistrict_name">
 
@@ -659,9 +658,9 @@
         <item>A+</item>
         <item>A-</item>
         <item>B+</item>
-        <item>B+</item>
+        <item>B-</item>
         <item>AB+</item>
-        <item>AB+</item>
+        <item>AB-</item>
         <item>O+</item>
         <item>O-</item>
 
@@ -673,4 +672,36 @@
         <item>Others</item>
 
     </string-array>
+    <string name="title_activity_navigation_drawer">navigation_drawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="introduction">\t\t By following a few recommendations before, during and after your blood donation can help you make your donation experience as safe, successful and pleasant as possible.</string>
+    <string name="befor">\t\t *Maintain a healthy iron level in your diet by eating iron rich foods, such as red meat, fish, poultry, beans, spinach, iron-fortified cereals and raisins."\n"
+\t *Get a good night's sleep.
+\t *Drink an extra 16 oz. of water or nonalcoholic fluids before the donation.\n
+\t *Eat a healthy meal before your donation. Avoid fatty foods, such as hamburgers, fries or ice cream before donating. (Fatty foods can affect the tests we do on your blood. If there is too much fat in your blood, your donation cannot be tested for infectious diseases and the blood will not be used for transfusion.)"\n"
+\t *If you are a platelet donor, remember that your system must be free of aspirin for two days prior to donation."\n"
+\t *Remember to bring your donor card, driver's license or two other forms of ID."\n\n\n"</string>
+
+    <string name="during">\t *Wear clothing with sleeves that can be raised above the elbow."\n"
+\t*Let the person taking your blood know if you have a preferred arm and show them any good veins that have been used successfully in the past to draw blood."\n"
+\t *Relax, listen to music, talk to other donors or read during the donation process."\n"
+\t *Take the time to enjoy a snack and a drink in the refreshments area immediately after donating."\n\n\n"</string>
+
+    <string name="after">\t\t *Drink an extra four (8 ounce) glasses of liquids and avoid alcohol over the next 24 hours.\n
+\t *Keep the strip bandage on for the next several hours.\n
+\t *To avoid a skin rash, clean the area around the strip bandage with soap and water.\n
+\t *Do not do any heavy lifting or vigorous exercise for the rest of the day.\n
+\t *If the needle site starts to bleed, apply pressure to it and raise your arm straight up for about 5-10 minutes or until bleeding stops.\n
+\t *If you experience dizziness or lightheadedness after donation, stop what you are doing and sit down or lie down until you feel better. Avoid performing any activity where fainting may lead to injury for at least 24 hours.\n
+\t *Call us at 1-866-236-3276 to report any additional health information that you forgot to tell us, if you have any problems or if you needed medical care after giving blood.\n
+ </string>
+
+    <string name="about">B.Sc.(Hons) in Computer Science and Engineering.\nDevelopment is my passion .Its my first android appliction. I want to help my two friend Jobayer and Amin Uddin for helping me on this task.\n\n I want to dedicate this appliction to my brother Late Ayub Ali
+    </string>
+
 </resources>

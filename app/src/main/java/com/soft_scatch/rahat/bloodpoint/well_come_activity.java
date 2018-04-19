@@ -43,12 +43,14 @@ public class well_come_activity extends AppCompatActivity {
 
     private void goToNet() {
         SharedPreferences sp = getSharedPreferences("details", Context.MODE_PRIVATE);
-        if(sp.contains("stored_user")){
-            Intent intent = new Intent(getApplicationContext(),Core_Activity.class);
+        if(sp.contains("user_name_key")){
+            Intent intent = new Intent(getApplicationContext(),navigation_drawer.class);
             startActivity(intent);
+            finish();
         }else {
             Intent intent = new Intent(getApplicationContext(), Log_in_Activity.class);
             startActivity(intent);
+            finish();
         }
     }
 }

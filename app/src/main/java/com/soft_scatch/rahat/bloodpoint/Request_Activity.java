@@ -1,6 +1,7 @@
 package com.soft_scatch.rahat.bloodpoint;
 
 import android.content.Intent;
+import android.database.Cursor;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.ToolbarWidgetWrapper;
@@ -24,6 +25,7 @@ public class Request_Activity extends AppCompatActivity {
     String[] subDistrictArray;
     Button sendReq;
     DBHelper helper = new DBHelper(this);
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,9 +72,9 @@ public class Request_Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 hospitalname= hospitalName.getText().toString();
-                Boolean requested = helper.Request(bloodgroup,district,subditrict);
+
                 Toast.makeText(Request_Activity.this, "Request is on process", Toast.LENGTH_SHORT).show();
-                Intent intent= new Intent(Request_Activity.this,Core_Activity.class);
+                Intent intent= new Intent(Request_Activity.this,navigation_drawer.class);
                 startActivity(intent);
                 clean();
             }

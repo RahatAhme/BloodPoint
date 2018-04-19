@@ -66,13 +66,10 @@ public class DBHelper extends SQLiteOpenHelper {
             Toast.makeText(context, CREATE_Doner_TABLE, Toast.LENGTH_SHORT).show();
             Log.d("tag",CREATE_Doner_TABLE);
         }
-
-
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
-
         try{
             sqLiteDatabase.execSQL(DROP_User_TABLE);
             onCreate(sqLiteDatabase);
@@ -97,6 +94,7 @@ public class DBHelper extends SQLiteOpenHelper {
         long rowNO= sqLiteDatabase.insert(USER_TABLE_NAME,null,cv);
         return  rowNO;
     }
+
     public long insert_doner_data(String name,String gender,String bGroup,String district,String subDistrict,String mobile){
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
         ContentValues cv = new  ContentValues();
@@ -117,9 +115,7 @@ public Boolean checking(String username,String password){
 
         while (cursor.moveToNext()){
         String UserName = cursor.getString(1);
-        Toast.makeText(context, UserName+"\n"+username, Toast.LENGTH_SHORT).show();
         String Password = cursor.getString(2);
-        Toast.makeText(context, Password+"\n"+password, Toast.LENGTH_SHORT).show();
         if(UserName.equals(username)){
             if(Password.equals(password)){
                 result = true;
@@ -131,11 +127,7 @@ public Boolean checking(String username,String password){
             Toast.makeText(context, "Invalid user name", Toast.LENGTH_SHORT).show();
         }
     }
-       return result;
+return result;
 }
 
-    public  Boolean Request(String blood,String district,String subdistrict){
-
-    return true;
-    }
 }

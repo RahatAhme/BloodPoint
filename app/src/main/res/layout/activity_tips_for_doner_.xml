@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:orientation="vertical"
+    tools:context="com.soft_scatch.rahat.bloodpoint.Tips_for_doner_Activity">
+
+
+    <LinearLayout
+        android:id="@+id/linearID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+       >
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tipsBarId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            app:titleTextColor="#fffcfc" />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:id="@+id/bannerID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tips For Successfull Donation"
+            android:textSize="20sp"
+            android:textColor="#0112fa"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:paddingLeft="10dp"
+            android:id="@+id/inductionID"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/introduction"
+            />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:id="@+id/beforBannerID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Before Your Donation"
+            android:textSize="20sp"
+            android:textColor="#0529f4"
+            android:textStyle="bold"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:paddingLeft="10dp"
+            android:id="@+id/beforID"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/befor"
+           />
+        <TextView
+            android:paddingLeft="10dp"
+            android:id="@+id/duringBannerID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="During Your Donation"
+            android:textSize="20sp"
+            android:textColor="#0529f4"
+            android:textStyle="bold"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:paddingLeft="10dp"
+            android:id="@+id/duringID"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/during"
+            />
+        <TextView
+            android:paddingLeft="10dp"
+            android:id="@+id/afterBannerID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="After Your Donation"
+            android:textSize="20sp"
+            android:textColor="#0529f4"
+            android:textStyle="bold"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:paddingLeft="10dp"
+            android:id="@+id/afterID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/after"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

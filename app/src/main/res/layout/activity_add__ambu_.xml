@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context="com.soft_scatch.rahat.bloodpoint.Add_Ambu_Activity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ambuToolID"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></android.support.v7.widget.Toolbar>
+
+    <AutoCompleteTextView
+        android:id="@+id/ambuSubDisTrict"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:hint="Sub_District"
+        android:textColor="#1629d1"
+        app:layout_constraintEnd_toEndOf="@+id/ambuHospitalID"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ambuHospitalID"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ambuHospitalID"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:hint="Hospital Name"
+        android:textColor="#1629d1"
+        app:layout_constraintEnd_toEndOf="@+id/ambuMobilelID"
+        app:layout_constraintStart_toStartOf="@+id/ambuMobilelID"
+        app:layout_constraintTop_toBottomOf="@+id/ambuSubDisTrict" />
+
+    <EditText
+        android:id="@+id/ambuMobilelID"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="39dp"
+        android:hint="Mobile"
+        android:inputType="phone"
+        android:textColor="#1629d1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ambuHospitalID" />
+
+    <Button
+        android:id="@+id/ambuAddButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55dp"
+        android:layout_marginEnd="60dp"
+        android:background="@mipmap/searchbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

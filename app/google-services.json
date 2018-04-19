@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "559950219704",
+    "firebase_url": "https://blood-point.firebaseio.com",
+    "project_id": "blood-point",
+    "storage_bucket": "blood-point.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559950219704:android:873a1a195981b6f0",
+        "android_client_info": {
+          "package_name": "com.soft_scatch.rahat.bloodpoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559950219704-mdfjgn6h3flqii04usoi2self2jr7vbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-Upu5u9rw-CJHYEWphihGikfRvszzv8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

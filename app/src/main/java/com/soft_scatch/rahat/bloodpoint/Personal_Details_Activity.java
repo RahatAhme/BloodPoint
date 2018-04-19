@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
@@ -26,12 +27,14 @@ public class Personal_Details_Activity extends AppCompatActivity {
     Spinner genderSpinner,bloodGroupSpinner;
     Button donerAdd;
     DBHelper helper = new DBHelper(this);
-    String selectedDistrict,selectedSubDistrict,selectedGender,selectedbg;
+    fire_helper fireHelper = new fire_helper(this);
+    String selectedDistrict,selectedSubDistrict,selectedGender,selectedbg,donerName,mobileNO;
     String[] bloodGroupArray;
     String[] genderArray;
-    String [] discrictName;
-    String [] SubdiscrictName;
+    String[] discrictName;
+    String[] SubdiscrictName;
     String birthDate;
+
 
 
     @Override
@@ -46,39 +49,42 @@ public class Personal_Details_Activity extends AppCompatActivity {
         subDistrict = findViewById(R.id.subDistrictID);
         genderSpinner = findViewById(R.id.sexSpinnerID);
         bloodGroupSpinner = findViewById(R.id.reqbgSpinnerID);
-        donerAdd = findViewById(R.id.addDonerButtonID);
+        donerAdd = findViewById(R.id.doneriid);
 
 
         bloodGroupArray = getResources().getStringArray(R.array.bloodGroups);
-        ArrayAdapter<String> bgadapter = new ArrayAdapter<String>(this,R.layout.sample_view,R.id.testViewSampleID,bloodGroupArray);
+        ArrayAdapter<String> bgadapter = new ArrayAdapter <String>(this,R.layout.sample_view,R.id.testViewSampleID,bloodGroupArray);
         bloodGroupSpinner.setAdapter(bgadapter);
-       selectedbg= bloodGroupSpinner.getSelectedItem().toString();
+
+
+
 
         genderArray = getResources().getStringArray(R.array.genders);
         ArrayAdapter<String> genderAdapter = new ArrayAdapter<String>(this,R.layout.sample_view,R.id.testViewSampleID,genderArray);
         genderSpinner.setAdapter(genderAdapter);
-        selectedGender = genderSpinner.getSelectedItem().toString();
+
+
+
 
         discrictName = getResources().getStringArray(R.array.district_name);
-        ArrayAdapter<String> disadapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,discrictName);
+        ArrayAdapter<String> disadapter = new ArrayAdapter<String>(this,R.layout.sample_view,R.id.testViewSampleID,discrictName);
         district.setThreshold(1);
         district.setAdapter(disadapter);
-
-        district.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                selectedDistrict =  district.getText().toString();
-            }
-        });
+      district.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+          @Override
+          public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+               selectedDistrict = district.getText().toString();
+          }
+      });
 
         SubdiscrictName = getResources().getStringArray(R.array.Subdistrict_name);
-        ArrayAdapter<String> subDisadapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,SubdiscrictName);
+        final ArrayAdapter<String> subDisadapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,SubdiscrictName);
         subDistrict.setThreshold(1);
         subDistrict.setAdapter(subDisadapter);
-        subDistrict.setOnClickListener(new View.OnClickListener() {
+        subDistrict.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onClick(View view) {
-                selectedSubDistrict =  subDistrict.getText().toString();
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                selectedSubDistrict=subDistrict.getText().toString();
             }
         });
 
@@ -107,25 +113,41 @@ public class Personal_Details_Activity extends AppCompatActivity {
                 Log.d("date", "onDateSet: mm/dd/yyy: " + month + "/" + day + "/" + year);
                 String date = day + "/" + month + "/" + year;
                 birthday.setText(date);
-                birthDate = birthday.getText().toString();
+
             }
         };
 
       donerAdd.setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View view) {
-              String donerName = name.getText().toString();
-              String mobileNO = mobile.getText().toString();
-              long isInserted = helper.insert_doner_data(donerName,selectedGender,selectedbg,selectedDistrict,selectedSubDistrict,mobileNO);
-              if(isInserted!= -1){
-                  Toast.makeText(Personal_Details_Activity.this, "Doner is added", Toast.LENGTH_SHORT).show();
-                  Intent intent = new Intent(Personal_Details_Activity.this,Core_Activity.class);
-                  startActivity(intent);
-              }
+           donerName = name.getText().toString();
+           mobileNO = mobile.getText().toString();
+           selectedbg= bloodGroupSpinner.getSelectedItem().toString();
+           selectedGender = genderSpinner.getSelectedItem().toString();
+             birthDate = birthday.getText().toString();
+if(donerName.isEmpty()||mobileNO.isEmpty()||birthDate.isEmpty()||selectedDistrict.isEmpty()||selectedSubDistrict.isEmpty()){
+    Toast.makeText(Personal_Details_Activity.this, "Please enter all the data first", Toast.LENGTH_SHORT).show();
+
+}else if(mobileNO.length()!=11){
+    Toast.makeText(Personal_Details_Activity.this, "Invalid Mobile No", Toast.LENGTH_SHORT).show();
+}else if(selectedbg.contains("Blood Group")){
+    Toast.makeText(Personal_Details_Activity.this, "Select your blood group", Toast.LENGTH_SHORT).show();
+}else if (selectedGender.contains("Sex")){
+    Toast.makeText(Personal_Details_Activity.this, "Select your gender", Toast.LENGTH_SHORT).show();
+}else {
+    fireHelper.donerAdder(donerName, mobileNO, selectedbg, selectedDistrict, selectedSubDistrict, birthDate, selectedGender);
+    Intent intent = new Intent(Personal_Details_Activity.this, navigation_drawer.class);
+    startActivity(intent);
+}
           }
       });
 
     }
 
-
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(Personal_Details_Activity.this,navigation_drawer.class);
+        startActivity(intent);
+        super.onBackPressed();
+    }
 }
